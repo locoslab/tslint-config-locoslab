@@ -1,0 +1,31 @@
+{
+  "name": "tslint-config-locoslab",
+  "version": "0.1.0",
+  "description": "TSLint configuration for Locoslab projects",
+  "author": "Locoslab GmbH",
+  "homepage": "https://github.com/locoslab/tslint-config-locoslab",
+  "bugs": "https://github.com/locoslab/tslint-config-locoslab/issues",
+  "repository": "locoslab/tslint-config-locoslab",
+  "private": true,
+  "license": "MIT",
+  "main": "./tslint.json",
+  "files": [
+    "tslint.json"
+  ],
+  "keywords": [
+    "tslint",
+    "tslintconfig",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "tslint test/**/*.ts"
+  },
+  "peerDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.2"
+  },
+  "devDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.2"
+  }
+}
