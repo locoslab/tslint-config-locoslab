@@ -10,6 +10,7 @@
 		"no-reference": false,
 		"no-var-requires": false,
 		"object-literal-sort-keys": false,
-		"whitespace": [true, "check-branch", "check-decl", "check-module", "check-separator", "check-type"]
+		"whitespace": [true, "check-branch", "check-decl", "check-module", "check-separator", "check-type"],
+		"no-console": [true, "log"]
 	}
 }
