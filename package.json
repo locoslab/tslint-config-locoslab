@@ -6,7 +6,6 @@
   "homepage": "https://github.com/locoslab/tslint-config-locoslab",
   "bugs": "https://github.com/locoslab/tslint-config-locoslab/issues",
   "repository": "locoslab/tslint-config-locoslab",
-  "private": true,
   "license": "MIT",
   "main": "./tslint.json",
   "files": [
@@ -18,7 +17,8 @@
     "typescript"
   ],
   "scripts": {
-    "test": "tslint test/**/*.ts"
+    "test": "tslint test/**/*.ts",
+    "prepublish": "tslint test/**/*.ts"
   },
   "peerDependencies": {
     "tslint": "^3.15.1",
