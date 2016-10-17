@@ -12,7 +12,10 @@ TSLint (http://palantir.github.io/tslint/) configuration for [Locoslab](https://
 }
 ```
 
-Note: TSLint and TypeScript are peer dependencies and must be installed separately, which allows using the preferred versions for each project.
+Notes:
+- TSLint and TypeScript are peer dependencies and must be installed separately, which allows using the preferred versions for each project.
+- This is work-in-progress
+- The rules are roughly sorted in 3 groups: whitespace/formatting, style, tslint:recommended overrides
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)

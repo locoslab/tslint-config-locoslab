@@ -2,15 +2,18 @@
 	"extends": "tslint:recommended",
 	"rules": {
 		"indent": [true, "tabs"],
+		"no-trailing-whitespace": true,
+		"linebreak-style": [true, "LF"],
+		"whitespace": [true, "check-branch", "check-decl", "check-module", "check-separator", "check-type"],
 		"quotemark": [true, "single", "avoid-escape"],
 		"semicolon": [true, "never", "ignore-interfaces"],
-		"no-trailing-whitespace": true,
 		"interface-name": [true, "never-prefix"],
+		"no-inferrable-types": [true, "ignore-params"],
+		"no-console": [true, "log"],
+		"no-bitwise": false,
 		"member-access": false,
 		"no-reference": false,
 		"no-var-requires": false,
-		"object-literal-sort-keys": false,
-		"whitespace": [true, "check-branch", "check-decl", "check-module", "check-separator", "check-type"],
-		"no-console": [true, "log"]
+		"object-literal-sort-keys": false
 	}
 }
