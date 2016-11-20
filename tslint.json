@@ -14,6 +14,10 @@
 		"member-access": false,
 		"no-reference": false,
 		"no-var-requires": false,
-		"object-literal-sort-keys": false
+		"object-literal-sort-keys": false,
+		"no-string-literal": false,
+		"max-classes-per-file": false,
+		"ordered-imports": false,
+		"arrow-parens": false
 	}
 }

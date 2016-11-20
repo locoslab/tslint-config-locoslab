@@ -9,3 +9,8 @@ let b = 1
 if (is123(a)) {
 	b = 2
 }
+setImmediate(c => is123(c), a)
+setImmediate((c, d) => is123(c+a), a, a)
+
+class A {}
+class B {}

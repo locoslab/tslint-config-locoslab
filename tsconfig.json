@@ -4,6 +4,8 @@
 		"module": "commonjs",
 		"experimentalDecorators": true,
 		"noImplicitAny": true,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
 		"strictNullChecks": true,
 		"inlineSourceMap": true,
 		"inlineSources": true,

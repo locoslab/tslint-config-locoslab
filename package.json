@@ -21,11 +21,11 @@
     "prepublish": "tslint test/**/*.ts"
   },
   "peerDependencies": {
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.3"
+    "tslint": ">=4.0.1",
+    "typescript": ">=2.0.3"
   },
   "devDependencies": {
-    "tslint": "^3.15.1",
+    "tslint": "^4.0.1",
     "typescript": "^2.0.3"
   }
 }
