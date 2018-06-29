@@ -5,6 +5,7 @@
 		"no-trailing-whitespace": true,
 		"linebreak-style": [true, "LF"],
 		"whitespace": [true, "check-branch", "check-decl", "check-module", "check-separator", "check-type"],
+		"no-consecutive-blank-lines": [true, 2],
 		"quotemark": [true, "single", "avoid-escape"],
 		"semicolon": [true, "never", "ignore-interfaces"],
 		"interface-name": [true, "never-prefix"],
