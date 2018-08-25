@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-locoslab",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "TSLint configuration for Locoslab projects",
   "author": "Locoslab GmbH",
   "homepage": "https://github.com/locoslab/tslint-config-locoslab",
